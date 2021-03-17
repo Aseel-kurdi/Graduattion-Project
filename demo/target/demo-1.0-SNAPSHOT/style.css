@@ -1,0 +1,334 @@
+@import"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+/*common styles****/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Castoro', serif;
+    background: url("https://i.ibb.co/m4fh2pq/130868616-143500423893042-1910089226623863756-n.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*login page *****/
+.login-box{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    color: tomato;
+}
+
+.login-box h1{
+    font-size: 40px;
+    border-bottom:3px solid ;
+    margin-bottom: 30px;
+    padding: 10px 0 ;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+
+}
+.txtb i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+
+    border: none;
+    outline: none ;
+    background: none;
+    color: rgb(75, 70, 70);
+    font-size: 18px;
+    width: 120px;
+    float: left;
+    margin:0 10px ;
+}
+.button {
+    font-family: 'Castoro', serif;
+    width: 100%;
+    background: none;
+    border: 2px solid;
+    color: tomato;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 12px 0;
+
+
+
+}
+.but a {
+    font-family: 'Castoro', serif;
+    width: 100%;
+    background: none;
+    border: 2px solid;
+    color: tomato;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 12px 0;
+    text-decoration: none;
+    display: block;
+
+
+}
+/* ::placeholder{
+     color:white;
+ }*/
+/*styl2*******************************************************************/
+
+.signup-form{
+    display:  block ;
+    width:25%;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    color: tomato;
+    margin-top: 3% ;
+    z-index: -1;
+
+}
+.signup-form h1{
+    font-size: 40px;
+    border-bottom:3px solid ;
+    margin-bottom: 30px;
+    padding: 10px 0 ;
+    margin-top: 1% ;
+}
+.txtb{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+.txtb input{
+
+    border: none;
+    outline: none ;
+    background: none;
+    color: rgb(75, 70, 70);
+    font-size: 18px;
+    width: 70%;
+    float: left;
+    margin:0 10px ;
+
+}
+.link a{
+    text-decoration: none;
+    color:tomato;
+    display: block;
+    width : 100% ;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 1% ;
+
+}
+.link a:hover{
+    background: #ffffff;
+}
+
+.submit{
+    width : 90% ;
+    border : solid tomato;
+    background:none ;
+    color : tomato;
+    font-size:  150% ;
+    line-height: 120% ;
+    margin : 1% ;
+    box-sizing: border-box;
+}
+
+#pass{
+    display: none ;
+}
+
+/*Home page********************/
+header {
+    width : 90% ;
+    display : block ;
+    background :none;
+    border : 3px solid tomato ;
+    border-radius :10px  ;
+    padding:1% ;
+    margin : 0 auto ;
+    text-align:  center; ;
+    margin-top : 1%;
+}
+
+nav a {
+    background :#ffffff;
+    display : inline-block ;
+    padding :1% ;
+    border-radius :5px  ;
+    margin-right:2%;
+    text-decoration : none;
+    text-align : center ;
+    width : 10% ;
+    font-size : 120%;
+    color: tomato ;
+    line-height: 70% ;
+}
+
+.active {
+    color :#ffffff ;
+    background-color: tomato ;
+}
+
+nav a:hover{
+    color :#000000 ;
+    font-size: 150% ;
+}
+
+#logo {
+
+    width: 40% ;
+}
+.eye{
+    position: absolute;
+
+}
+#hide1{
+    display: none;
+}
+.container{
+    height: 75vh;
+    width: 30%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 0 10px;
+    margin-top : 4%;
+
+}
+.img{
+    height: 70px;
+    width: 70px;
+    color: white;
+    background:url("https://i.ibb.co/DKR2ZNt/facebook-profile-image.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.container h1{
+    color: white;
+    /*font-size: medium;*/
+    margin-top: 50px;
+}
+.container p{
+    color: white;
+    margin-top: 60px;
+    /*font-size: large;*/
+
+}
+.paragragh{
+
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+}
+/*.container button{
+    background: no-repeat;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    padding: 7px 15px;
+    cursor: pointer;
+
+    margin-top: 50px;
+
+
+}
+.container button:hover{
+    background: white;
+    color: black;
+}*/
+table{
+    font-family: 'Castoro', serif;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+    width: 60%;
+    height: 100px;
+    text-align: center;
+}
+th{
+    background: tomato;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Castoro', serif;
+}
+th,td{
+    padding: 5px 12px;
+
+}
+td{
+    font-family: 'Open Sans',sans-serif;
+}
+/*tr:nth-child(odd){*/
+/*    background-color: #FFFFFF;*/
+/*    !*opacity: 0.5;*!*/
+
+/*}*/
+tr{
+    color: #ff7761;
+
+}
+.adminsubmit{
+    position: relative;
+    display: inline-block;
+    padding: 6px 6px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,tomato,lightsalmon);
+    /*border-color: snow;*/
+    border-collapse: collapse;
+    border: solid tomato;
+
+}
